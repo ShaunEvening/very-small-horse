@@ -17,10 +17,19 @@ span.horse-moji {
   font-size: 6rem;
 }
 
+span.horse-moji__horse {
+  font-size: 0.3rem;
+}
+
 p.body-text {
   text-align: center;
   font-size: 2rem;
   max-width: 720px;
+}
+
+p.github {
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* // Medium devices (tablets, less than 992px) */
@@ -31,6 +40,10 @@ p.body-text {
 
   p.body-text {
     font-size: 1.8rem;
+  }
+
+  p.github {
+    font-size: 0.9rem;
   }
 }
 
@@ -47,6 +60,10 @@ p.body-text {
   p.body-text {
     font-size: 1.2rem;
   }
+
+  p.github {
+    font-size: 0.6rem;
+  }
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
@@ -57,5 +74,9 @@ p.body-text {
 
   p.body-text {
     font-size: 1rem;
+  }
+
+  p.github {
+    font-size: 0.7rem;
   }
 }
